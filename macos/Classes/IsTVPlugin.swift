@@ -10,8 +10,10 @@ public class IsTVPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
-      if(call.method == "check") {
-        return result(false);
+    case "check":
+      result(false)
+    default:
+      // 处理未定义的方法调用
       result(FlutterMethodNotImplemented)
     }
   }
