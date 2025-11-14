@@ -1,6 +1,6 @@
 # is_tv
 
-基于https://github.com/imrhk/is_tv，解决macos上编辑不通过
+基于```https://github.com/imrhk/is_tv```，解决macos上编辑不通过
 
 Flutter plugin to check if current device is a Television.
 
